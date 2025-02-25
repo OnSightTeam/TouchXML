@@ -1,4 +1,4 @@
-{
+Pod::Spec.new do |s|
   "name": "TouchXML",
   "version": "0.1",
   "license": "Simplified BSD License",
@@ -17,4 +17,4 @@
   "xcconfig": {
     "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
   }
-}
+end
